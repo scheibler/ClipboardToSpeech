@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- abstract activity -->
+    <string name="menuItemInfo">Info</string>
+
+    <!-- main activity -->
+    <string name="app_name">Clipboard To Speech</string>
+    <string name="labelDescription">Diese App überwacht die Zwischenablage und spricht neu hinzugefügten Text mit der systemweit eingestellten Sprachausgabe.</string>
+    <string name="buttonEnableService">Service aktiv</string>
+    <string name="labelClipboardHistory">Clipboard history:</string>
+    <string name="buttonClearClipboardHistory">Löschen</string>
+    <string name="labelListViewClipboardHistoryEmpty">Die Clipboard History ist leer.</string>
+
+    <!-- info activity -->
+    <string name="infoActivityTitle">Info</string>
+    <string name="labelApplicationVersion">Version: </string>
+    <string name="labelEMailAddress">E-Mail: email@eric-scheibler.de</string>
+    <string name="labelWebsite">Webseite: https://github.com/scheibler/ClipboardToSpeech</string>
+
+    <!-- service -->
+    <string name="serviceNotification">Zwischenablage überwachen: %1$s</string>
+
+    <!-- standard messages, which are used in more than one component -->
+    <string name="dialogOK">OK</string>
+    <string name="dialogCancel">Abbrechen</string>
+    <string name="dialogEnabled">Ein</string>
+    <string name="dialogDisabled">Aus</string>
+
+</resources>

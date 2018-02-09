@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:text="@string/labelDescription" />
+
+    <Switch
+        android:id="@+id/buttonEnableService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonEnableService" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:text="@string/labelClipboardHistory" />
+
+        <Button
+            android:id="@+id/buttonClearClipboardHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/buttonClearClipboardHistory" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewClipboardHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/labelListViewClipboardHistoryEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true" />
+
+</LinearLayout>
